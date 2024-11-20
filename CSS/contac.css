@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif; /*establece el estilo de la letra*/
+    background-color: #f9f9f9; /*establece el color de fondo*/
+    margin: 0;/*se agrega una margen alrededor del contenido*/
+}
+header {
+    background: linear-gradient(310deg, #ff8000, #0c8301); /*Encabezado con degradado*/
+    color: #fff;/*establece el color de la letra*/
+    padding: 20px;/*agrega como un relleno o margenes*/
+    text-align: center;/*se utiliza para centrar el texto dentro del header*/
+    font-size: 1.5em;/*cambia el tamaño del texto ajustandolo en el header*/
+}
+main {
+    padding: 20px;/*agrega como un relleno o margenes*/
+   flex-direction: column;/*se utiliza para que quede centrado verticalmente */
+   
+}
+.informacion {
+    display: flex; /*nos ayuda a alinear los contenedores de manera horizontal*/
+    gap: 20px; /*nos ayuda a crear el espacio entre contenedores*/
+    padding: 20px;/*nos ayuda a agregar como un relleno o margen la cual ayuda para que la informacion no se recoja*/
+}
+
+
+.nombre {
+    background: #fff; /*establece un color fondo blanco*/
+    padding: 20px; /*ayuda a crear un relleno para mejor visivilidad*/
+    border-radius: 10px; /*Crea bordes redondeados*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*crea una sombra para crear un contraste entre el fondo y el contenedor*/
+    text-align: center; /*Centra el texto que esta dentro del contenedor*/
+    width: 300px; /*Nos ayuda a crear un ancho fijo para cada contenedor*/
+    max-width: 100%; /*ayuda a que el texto no se salga del contenedor*/
+    display: flex; /*Nos ayuda a ajustar de mejor manera lo que esta dentro del contenedor*/
+    flex-direction: column; /*Nos ayuda a que los elementos queden ajustados en el contendor de manera vertical*/
+    align-items: center; /*Centra los  elementos como las fotos y los botones*/
+    
+}
+footer {
+    background: linear-gradient(310deg, #ff8000, #0c8301);/*establce el color de fondo del pie de pagina*/
+    color: #fff;/*Color del texto del pie de página*/
+    text-align: center;/*centrar el texto del pie de pagina*/
+    padding: 10px;/*agrega como un relleno o margenes en el pie de pagina*/
+    width: 100%;/*ayuda a que todo el pie de pagina ocupe todo el ancho de la pagina*/
+    position: fixed;/*se utiliza para fijar el pie de pagina en la parte de abajo*/
+    bottom: 0;/*nos ayuda a que el pie de pagina este abajo*/
+}
+
+.social-icon {
+    width: 30px;/*sirve para el ancho de la imagen*/ 
+    height: 30px;/*sirve para definir la altura de la imagen*/
+    margin-right: 20px;/*sirve para añadir un espacio a la derecha entre iconos*/
+    vertical-align: middle;/*sirve para alinear verticalmente el icono con alguna linea de texto*/
+}
+
+.imgr{
+    width: 150px; /*Ayuda a ajustar el tamaño del logo*/
+}
+.fotodenosotros {
+    width: 100px; /*Ayuda a ajustar el ancho de las fotos*/
+    height: 100px; /*Ayuda a ajustar el largo de las fotos*/
+    object-fit: cover; /*ayuda a ajustar mejor la imagen sin deformarla*/
+}
+.nombre p {
+    font-size: 0.9em; /*Reduce el tamaño del texto que esta dentro del contenedor*/
+    color: #333; /*Color del texto que esta dentro del contenedor*/
+    line-height: 1.5; /*Espaciado entre líneas de cada texto*/
+}
+button {
+    padding: 10px; /*agrega como un relleno o margenes en el boton*/
+    background-color: #2bac47;/*establece el color de fondo del boton*/
+    color: #fff;/*Color del texto del botón*/
+    border-radius: 4px;/*aplica borde redondeado en el boton*/
+    cursor: pointer;/*cambia la forma del cursor por una mano cuando se pasa por encima del boton*/
+    font-size: 16px;/*cambia el tamaño del texto ajustandolo al boton*/
+}
